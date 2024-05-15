@@ -1,6 +1,7 @@
 package net.krishd.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.krishd.tutorialmod.item.ModCreativeModTabs;
 import net.krishd.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,6 +32,8 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.ITEMS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -48,6 +51,7 @@ public class TutorialMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.URANIUM_INGOT);
+            event.accept(ModItems.RAW_URANIUM);
         }
 
     }
