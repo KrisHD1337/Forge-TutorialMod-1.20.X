@@ -1,6 +1,7 @@
 package net.krishd.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.krishd.tutorialmod.block.ModBlocks;
 import net.krishd.tutorialmod.item.ModCreativeModTabs;
 import net.krishd.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -35,6 +36,7 @@ public class TutorialMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

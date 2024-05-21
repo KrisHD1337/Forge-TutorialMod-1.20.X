@@ -2,5 +2,7 @@
   "item.tutorialmod.uranium_ingot": "Uranium Ingot",
   "item.tutorialmod.raw_uranium": "Raw Uranium",
 
+  "block.tutorialmod.uranium_block": "Block of Uranium",
+
   "creativetab.tutorial_tab": "Uranium Tutorial Tab"
 }

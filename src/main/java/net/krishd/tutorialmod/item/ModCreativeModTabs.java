@@ -1,6 +1,7 @@
 package net.krishd.tutorialmod.item;
 
 import net.krishd.tutorialmod.TutorialMod;
+import net.krishd.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.URANIUM_INGOT.get());
                         pOutput.accept(ModItems.RAW_URANIUM.get());
+
+                        pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
                     })
                     .build());
 
