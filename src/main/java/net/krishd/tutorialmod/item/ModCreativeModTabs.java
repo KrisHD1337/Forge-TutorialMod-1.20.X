@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_URANIUM.get());
 
                         pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_URANIUM_BLOCK.get());
                     })
                     .build());
 
