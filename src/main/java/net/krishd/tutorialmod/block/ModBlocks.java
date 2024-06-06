@@ -23,6 +23,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).mapColor(MapColor.COLOR_GREEN)));
     public static final RegistryObject<Block> RAW_URANIUM_BLOCK = registerBlock("raw_uranium_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.COLOR_GREEN)));
+    public static final RegistryObject<Block> URANIUM_ORE = registerBlock("uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> DEEPSLATE_URANIUM_ORE = registerBlock("deepslate_uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_GOLD_ORE)));
+    public static final RegistryObject<Block> NETHER_URANIUM_ORE = registerBlock("nether_uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_GOLD_ORE)));
+    public static final RegistryObject<Block> END_URANIUM_ORE = registerBlock("end_uranium_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

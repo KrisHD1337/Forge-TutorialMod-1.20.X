@@ -4,6 +4,10 @@
 
   "block.tutorialmod.uranium_block": "Block of Uranium",
   "block.tutorialmod.raw_uranium_block": "Block of Raw Uranium",
+  "block.tutorialmod.uranium_ore": "Uranium Ore",
+  "block.tutorialmod.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "block.tutorialmod.nether_uranium_ore": "Nether Uranium Ore",
+  "block.tutorialmod.end_uranium_ore": "End Uranium Ore",
 
   "creativetab.tutorial_tab": "Uranium Tutorial Tab"
 }

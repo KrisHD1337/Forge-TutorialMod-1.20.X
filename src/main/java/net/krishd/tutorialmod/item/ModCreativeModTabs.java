@@ -23,6 +23,10 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_URANIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.URANIUM_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_URANIUM_ORE.get());
+                        pOutput.accept(ModBlocks.END_URANIUM_ORE.get());
                     })
                     .build());
 
