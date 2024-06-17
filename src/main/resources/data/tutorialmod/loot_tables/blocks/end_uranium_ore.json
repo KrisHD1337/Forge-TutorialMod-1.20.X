@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:end_uranium_ore"
+              "name": "tutorialmod:end_uranium_ore"
             },
             {
               "type": "minecraft:item",
