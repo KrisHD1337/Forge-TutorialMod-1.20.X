@@ -21,14 +21,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ModTags.Blocks.RADIOACTIVE_BLOCKS)
-                .add(ModBlocks.URANIUM_ORE.get()).addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.URANIUM_ORE.get()).addTag(Tags.Blocks.ORES)
+                .add(ModBlocks.NUCLEAR_WASTE_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.URANIUM_BLOCK.get(),
                         ModBlocks.RAW_URANIUM_BLOCK.get(),
                         ModBlocks.URANIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
-                        ModBlocks.NETHER_URANIUM_ORE.get()
+                        ModBlocks.NETHER_URANIUM_ORE.get(),
+                        ModBlocks.NUCLEAR_WASTE_BLOCK.get()
                 );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -40,7 +42,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.URANIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
                         ModBlocks.NETHER_URANIUM_ORE.get(),
-                        ModBlocks.END_URANIUM_ORE.get()
+                        ModBlocks.END_URANIUM_ORE.get(),
+                        ModBlocks.NUCLEAR_WASTE_BLOCK.get()
                 );
     }
 }

@@ -22,6 +22,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_URANIUM_ORE);
         blockWithItem(ModBlocks.NETHER_URANIUM_ORE);
         blockWithItem(ModBlocks.END_URANIUM_ORE);
+
+        blockWithItem(ModBlocks.NUCLEAR_WASTE_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

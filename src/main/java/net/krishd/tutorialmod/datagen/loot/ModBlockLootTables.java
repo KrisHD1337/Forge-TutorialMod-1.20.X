@@ -27,6 +27,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     public void generate() {
         this.dropSelf(ModBlocks.URANIUM_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_URANIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.NUCLEAR_WASTE_BLOCK.get());
 
         this.add(ModBlocks.URANIUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
