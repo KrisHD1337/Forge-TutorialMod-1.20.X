@@ -48,7 +48,7 @@ public class NuclearWasteBlock extends Block {
 
         // Apply different levels of Poison effect based on proximity
         if (distanceSqr < 4) { // Very close to the block
-            player.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 1)); // Poison for 5 seconds, level 3
+            player.addEffect(new MobEffectInstance(MobEffects.WITHER, 100, 0)); // Wither for 5 seconds, level 1
         } else if (distanceSqr < 16) { // A bit farther
             player.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1)); // Poison for 5 seconds, level 2
         } else if (distanceSqr < 100) { // Within 10 blocks

@@ -19,6 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.URANIUM_INGOT);
         simpleItem(ModItems.RAW_URANIUM);
+        simpleItem(ModItems.GEIGER_COUNTER);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

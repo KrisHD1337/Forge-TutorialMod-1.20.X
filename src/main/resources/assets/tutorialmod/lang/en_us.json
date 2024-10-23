@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.uranium_ingot": "Uranium Ingot",
   "item.tutorialmod.raw_uranium": "Raw Uranium",
+  "item.tutorialmod.geiger_counter": "Geiger Counter (WIP)",
 
   "block.tutorialmod.uranium_block": "Block of Uranium",
   "block.tutorialmod.raw_uranium_block": "Block of Raw Uranium",
